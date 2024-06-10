@@ -1,0 +1,26 @@
+{
+  "name": "readme_generatorv2",
+  "version": "1.0.0",
+  "description": "A README generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TheLuckiestLlama/README_GeneratorV2.git"
+  },
+  "keywords": [
+    "README"
+  ],
+  "author": "Daniel Hudson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheLuckiestLlama/README_GeneratorV2/issues"
+  },
+  "homepage": "https://github.com/TheLuckiestLlama/README_GeneratorV2#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^9.2.23"
+  }
+}

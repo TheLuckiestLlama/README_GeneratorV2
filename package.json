@@ -21,6 +21,6 @@
   "homepage": "https://github.com/TheLuckiestLlama/README_GeneratorV2#readme",
   "dependencies": {
     "fs": "^0.0.1-security",
-    "inquirer": "^9.2.23"
+    "inquirer": "^8.2.4"
   }
 }

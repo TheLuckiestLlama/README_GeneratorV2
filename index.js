@@ -21,15 +21,16 @@ const questions = [{
                 }];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data);
+}
 // TODO: Create a function to initialize app
 function init() {
     console.log("Welcome to README Generator V2!")
     inquirer
         .prompt(questions)
-        .then((response) =>
-        console.log(response))
+        .then((response) => 
+        writeToFile("README", response))
     }
 
     // inquirer
